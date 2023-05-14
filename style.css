@@ -25,11 +25,11 @@ body {
     gap: 9rem;
     margin: 1.5rem 0 7.6rem;
     padding: 0 .8rem;
-    & img {
+    img {
         width: 6.8rem;
     }
 
-    & .button-one {
+    .button-one {
         padding: .3rem 1rem;
         text-transform: capitalize;
         border: 1px solid hsl(322, 100%, 66%);
@@ -44,7 +44,7 @@ body {
 .hero-section {
     text-align: center;
     padding: 0 2.5rem;
-    & h1 {
+    h1 {
         font-family: 'Poppins', sans-serif;
         font-weight: 700;
         line-height: 2rem;
@@ -52,7 +52,7 @@ body {
         font-size: 1.5rem;
     }
 
-    & p {
+    p {
         font-family: 'Open Sans', sans-serif;
         margin: 2rem 0 3rem;
         font-size: 1rem;
@@ -61,7 +61,7 @@ body {
         opacity: .9;
     }
 
-    & img {
+    img {
         width: 18rem;
         height: 13rem;
     }
@@ -115,11 +115,11 @@ body {
 .testimonials {
     margin-top: 7.6rem;
 
-    & .communities {
+    .communities {
         margin-bottom: 6.2rem;
     }
 
-    & span {
+    span {
         display: flex;
         flex-direction: column;
         font-weight: 600;
@@ -128,7 +128,7 @@ body {
         color: hsl(192, 100%, 9%);
     }
 
-    & img {
+    img {
         width: 1.9rem;
         height: 2rem;
         position: relative;
@@ -180,7 +180,7 @@ body {
     margin: 9rem 0;
     padding: 0 2rem;
 
-    & h2 {
+    h2 {
         color: hsl(192, 100%, 9%);
         max-width: 100%;
         font-family: 'Poppins', sans-serif;
@@ -255,7 +255,7 @@ footer {
     color: hsl(0,0%,100%);
     max-width: 100%;
 
-    & h3 {
+    h3 {
         text-transform: uppercase;
         font-weight: 600;
         font-family: 'Poppins', sans-serif;
@@ -263,7 +263,7 @@ footer {
         margin: 0 0 1.8rem;
     }
 
-    & p {
+    p {
         font-family: 'Open Sans', sans-serif;
         line-height: 1.5rem;
     }
@@ -272,7 +272,7 @@ footer {
         text-align: right;
     }
 
-   & .input {
+    .input {
         padding: 1rem 9rem 1rem 1rem;
         border-radius: .2rem;
         border: none;
@@ -282,16 +282,16 @@ footer {
         outline: none;
     }
 
-    & .col-one > img {
+    .col-one > img {
         width: 12rem;
         margin: 1.6rem 0;
     }
 
-    & .contacts {
+    .contacts {
         margin: 3rem 0;
     }
 
-   & .contacts li {
+   .contacts li {
         list-style: none;
     }
 
@@ -330,29 +330,29 @@ footer {
         margin: 2.5rem 0 7.6rem;
         padding: 0;
 
-        & img {
+        img {
             width: 15rem;
         }
     
-        & .button-one {
+        .button-one {
             padding: .7rem 3rem;
             font-size: 1.2rem;
         } 
     }
     
     .hero-section {
-        & h1 {
+        h1 {
             font-size: 3rem;
             margin-top: 5rem; 
         }
     
-        & p {
+        p {
             margin: 2.5rem 0 3rem;
             font-size: 1.3rem;
             padding: 0 21.7rem;
         }
     
-        & img {
+        img {
             width: 64rem;
             height: 46.5rem;
             display: block;
@@ -404,19 +404,19 @@ footer {
         padding: 3rem 8rem;
         margin: -3rem 0 -1rem;
         
-        & h2 {
+        h2 {
             font-size: 2.3rem;
             font-weight: 800;
         }
         
-        & p {
+        p {
             padding: 0;
             font-weight: 600;
             font-size: 1rem;
             line-height: 1.5rem;
         }
         
-        & img {
+        img {
             width: 33rem;
             margin: 5rem 0;
         }
@@ -434,7 +434,7 @@ footer {
         margin: 9rem 0;
         padding: 0 2rem;
     
-        & h2 {
+        h2 {
             font-size: 2.3rem;
         }
     }
@@ -468,15 +468,15 @@ footer {
     gap: 20rem;
     padding: 6rem 7rem 0;
 
-    & h3 {
+    h3 {
         font-size: 1.5rem;
     }
 
-    & p {
+    p {
         width: 82%;
     }
 
-   & .input {
+   .input {
         border-radius: .21rem;
     }
 }
