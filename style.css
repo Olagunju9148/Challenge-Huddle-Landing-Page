@@ -28,6 +28,7 @@ body {
 
    & img {
         width: 6.8rem;
+        display: block;
     }
 
     & .button-one {
