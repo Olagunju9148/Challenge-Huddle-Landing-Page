@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     text-align: center;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 .header {
@@ -42,6 +43,7 @@ body {
      border-radius: 1.5rem;
      outline: none;
      font-family: 'Open Sans', sans-serif;
+     transition: all ease-in-out 500ms;
  } 
 
 .hero-section {
@@ -72,7 +74,7 @@ body {
     height: 13rem;
 }
 
-.button-two, .button-three, .button-four {
+.secondary-btn {
     color: hsl(0,0%,100%);
     background-color: hsl(322, 100%, 66%);
     border: 1px solid hsl(322, 100%, 66%);
@@ -82,6 +84,7 @@ body {
     margin-bottom: 5rem;
     padding: 1rem 3rem;
     border-radius: 2rem;
+    transition: all ease-in-out 500ms;
 }
 
 .button-four {
@@ -97,24 +100,14 @@ body {
     background-color: hsl(322, 100%, 66%);
     color: hsl(0,0%,100%);
     cursor: pointer;
+    transition: all ease-in-out 500ms;
 }
 
-.button-two:hover {
+.secondary-btn:hover {
     color: hsl(322, 100%, 66%);
     background-color: hsl(0,0%,100%);
     cursor: pointer;
-}
-
-.button-three:hover {
-    color: hsl(322, 100%, 66%);
-    background-color: hsl(0,0%,100%);
-    cursor: pointer;
-}
-
-.button-four:hover {
-    color: hsl(322, 100%, 66%);
-    background-color: hsl(0,0%,100%);
-    cursor: pointer;
+    transition: all ease-in-out 500ms;
 }
 
 .testimonials {
@@ -323,6 +316,139 @@ footer {
     gap: .8rem;
 }
 
+@media screen and (min-width: 64rem) {
+    .header {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30rem;
+        margin: 2.5rem 0 7.6rem;
+        padding: 0;
+
+    }
+
+    .header img {
+         width: 15rem;
+     }
+ 
+     .button-one {
+         padding: .7rem 3rem;
+         font-size: 1.2rem;
+     } 
+    
+    .hero-section h1 {
+            font-size: 2.5rem;
+            margin-top: 4rem; 
+        }
+    
+    .hero-section p {
+            margin: 2.5rem 0 3rem;
+            font-size: 1.3rem;
+            padding: 0 10rem;
+        }
+    
+    .hero-section img {
+            width: 56rem;
+            height: 46.5rem;
+            display: block;
+            margin: auto;
+        }
+
+    .testimonials {
+            display: flex;
+            justify-content: right;
+        }
+
+     .communities {
+                    margin-bottom: 6.2rem;
+                    margin-right: -30rem;
+                }
+    
+    .messages {
+                    margin-left: 23rem;
+                }
+                
+    .testimonials span {
+                    font-size : 6rem;
+                }
+                
+    .testimonials img {
+                    display: block;
+                    width: 1.9rem;
+                    height: 2rem;
+                    position: relative;
+                    right: 6rem;
+                }
+
+     .button-two, .button-three {
+        font-size: 1.2rem;
+        padding: 1.2rem 5rem;
+        font-weight: 600;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 8.7rem;
+        padding: 1rem 1.5rem;
+        margin: -3rem 0 -1rem;
+    }
+    
+    .section h2 {
+        font-size: 2.3rem;
+        font-weight: 800;
+    }
+    
+    .section p {
+        padding: 0;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    .section img {
+        width: 33rem;
+        margin: 5rem 0;
+    }
+    .section-three {
+        flex-direction: row-reverse;
+        margin: 14rem 0;
+    }
+    
+    .section-five {
+        justify-content: center;
+        align-items: center;
+        margin: 14rem 0;
+        padding: 0 2rem;
+    }
+    
+    .section-five h2 {
+            font-size: 2.3rem;
+        }
+
+.footer {
+    flex-direction: row;
+    gap: 20rem;
+    padding: 6rem 3rem 0;
+
+}
+
+.footer h3 {
+    font-size: 1.5rem;
+}
+
+.footer p {
+    width: 90%;
+}
+
+.input {
+    border-radius: .21rem;
+}
+
+}
+
 @media screen and (min-width: 90rem) {
     .header {
         display: flex;
@@ -433,11 +559,12 @@ footer {
         margin: 9rem 0;
         padding: 0 2rem;
     
-        & h2 {
+    }
+    
+    .section-five h2 {
             font-size: 2.3rem;
         }
-    }
-
+        
 .section-bottom-1-mobile, .section-bottom-2-mobile img {
     display: none;
  }
